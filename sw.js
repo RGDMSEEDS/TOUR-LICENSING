@@ -1,9 +1,9 @@
-/* GDM Licensing — service worker v5
+/* GDM Licensing — service worker v6
    - Só limpa caches DESTE app (prefixo gdm-licensing-): não apaga o offline do outro app no mesmo endereço.
    - Página: tenta a internet por até 3,5 s; se não responder, abre a cópia guardada (sinal fraco no campo).
      A versão nova continua baixando e fica guardada para a próxima abertura. */
 var PFX = "gdm-licensing-";
-var CACHE = PFX + "v5";
+var CACHE = PFX + "v6";
 var SHELL = ["./", "./index.html", "./manifest.webmanifest"];
 var ESPERA_REDE = 3500;
 
